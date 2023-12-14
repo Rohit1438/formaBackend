@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "server": "nodemon -q src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.6.4",
     "morgan": "^1.10.0",
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.1"
   }
 }
